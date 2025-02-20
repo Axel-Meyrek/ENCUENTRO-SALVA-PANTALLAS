@@ -1,0 +1,42 @@
+/* NORMALIZACION */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorDark);
+    font-size: 16px;
+    background: rgb(0,7,37);
+    background: linear-gradient(180deg, rgba(0,7,37,1) 0%, rgba(9,30,99,1) 97%);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    scale: 1.6;
+}
+
+.salvapantallas {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.salvapantallas_logo {
+    width: 80%;
+}

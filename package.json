@@ -1,0 +1,16 @@
+{
+  "name": "encuentro-salva-pantallas",
+  "version": "1.0.0",
+  "description": "Salva pantallas para fondo de pantallas en el evento del 5to Encuentro de Ingenierias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Axel Velasco Chavez",
+  "license": "ISC"
+}

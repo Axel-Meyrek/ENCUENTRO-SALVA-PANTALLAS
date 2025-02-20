@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- GENERAL -->
+    <title>SalvaPantallas -  5to Encuentro de Ingenierias UPAEP</title>
+</head>
+<body>
+    <!-- PARTICLES -->
+    <div id="canvas-container"></div>
+
+    <!-- SALVA PANTALLAS -->
+    <section class="salvapantallas">
+        <img class="salvapantallas_logo" src="img/logoEvento.svg" alt="logo del evento UPAEP">
+    </section>
+
+    <!-- PARTICLES -->
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.1/dist/es-module-shims.js" crossorigin="anonymous" defer></script>
+    <script type="importmap" defer>
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.165.0/examples/jsm/",
+        "simplex-noise": "https://cdn.jsdelivr.net/npm/simplex-noise@3.0.0/+esm"
+      }
+    }
+    </script>
+    <!-- SCRIPTS -->
+     <script src="particle.js" type="module"></script>
+</body>
+</html>
